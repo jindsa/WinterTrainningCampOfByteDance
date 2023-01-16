@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	maxNum := 100
+	// maxNum := 100
 	rand.Seed(time.Now().UnixNano())
-	secretNumber := rand.Intn(maxNum)
+	secretNumber := rand.Intn(100)
 	fmt.Println("The secret number is ", secretNumber)
 }
