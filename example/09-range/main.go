@@ -18,6 +18,12 @@ func main() {
 		fmt.Println(k, v) // b 8; a A
 	}
 	for k := range m {
-		fmt.Println("key", k) // key a; key b
+		fmt.Println("key", m[k]) // key a; key b
 	}
 }
+
+/*
+range 可用来快速遍历slice或map。
+range遍历时，对于数组会返回两个值：索引和对应位置的值（不需要索引可以用下划线忽略）
+
+*/

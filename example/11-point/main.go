@@ -4,6 +4,7 @@ import "fmt"
 
 func add2(n int) {
 	n += 2
+	fmt.Println("拷贝中的n值:", n)
 }
 
 func add2ptr(n *int) {
